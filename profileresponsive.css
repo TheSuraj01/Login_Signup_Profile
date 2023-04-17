@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1150px) {
+    .profile-main{
+        flex-direction: column;
+    }
+    .profile-left{
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+        height: 15vh;
+    }
+    .profile-right{
+        padding-bottom: 0px;
+        height: 15vh;
+
+    }
+    .profile-main input{
+        height: 20px;
+        margin-bottom: 15px;
+    }
+    .profile-right{
+        padding-top: 0%;
+    }
+    .profile-footer button {
+        margin-top: 30px;
+    }
+    .profile-main textarea{
+        height: 20px;
+        margin-bottom: 15px;   
+    }
+}
+@media only screen and (max-width: 565px) {
+    .profile-main input{
+        width: 300px;
+    }
+    .profile-main textarea{
+        width: 300px;
+    }
+}

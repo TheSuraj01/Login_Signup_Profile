@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(coloured-background.png);
+    background-size: cover;
+    position: relative;
+}
+.signup{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff50;
+    opacity: .9;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 150px 0px 120px 0px;
+}
+.signup h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-bottom: 5px solid black;
+}
+.signup input{
+    height: 60px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: black !important;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.signup input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.linkbtn{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 165px;
+    font-size: 20px;
+    background-color: rgba(165, 164, 164, 0.927);
+    border: 0px;
+    border-radius: 40px;
+    padding: 0px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    background-color: rgba(124, 101, 255, 0.397);
+    cursor: pointer;
+}
+.btn{
+    height: 50px;
+    width: 165px;
+    font-size: 20px;
+    background-color: rgba(255, 192, 32, 0.927);
+    border: 0px;
+    border-radius: 40px;
+}
+.btn:hover{
+    background-color: rgba(124, 101, 255, 0.397);
+    cursor: pointer;
+}
+#signin{
+    background-color:#cecece;
+}

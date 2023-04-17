@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(coloured-background.png);
+    /* filter: blur(10px); */
+    background-size: cover;
+    position: relative;
+    display: flex;
+    /* opacity: .8; */
+    position: fixed;
+    /* flex-direction: column; */
+    z-index: -1;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-top: 130px; */
+}
+.left img{
+    mix-blend-mode: multiply;
+    height: 120px;
+    width: 400px;
+    opacity: 100;
+    margin-bottom: 30px;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff50;
+    opacity: .9;
+    border-radius: 0px 0px 0px 300px;
+}
+
+.right input{
+    height: 60px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: black !important;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.right input::placeholder{
+    color: rgb(39, 39, 39);
+}
+.right h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-bottom: 5px solid black;
+}
+.linkbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linkbtn a{
+    text-decoration: none;
+}
+.forget{
+    color: red;
+}
+.btn{
+    display: flex;
+    color: black;
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #cecece;
+    color: black;
+}
+.btn:hover{
+    background-color: rgba(124, 101, 255, 0.397);
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.login button{
+    height: 50px;
+    width: 150px;
+    background-color: rgba(255, 192, 32, 0.927);
+    border: 0px;
+    border-radius: 50px;
+}
+.login button:hover{
+    background-color: white;
+}
